@@ -1,0 +1,37 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #f3f4f6;
+  margin: 0;
+}
+
+.navbar {
+  background: #111827;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links a {
+  color: #d1d5db;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: white;
+}
+
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+}
+
+.box {
+  background: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  margin-bottom: 1rem;
+}
